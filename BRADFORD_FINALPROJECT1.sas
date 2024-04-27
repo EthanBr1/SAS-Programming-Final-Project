@@ -212,7 +212,6 @@ VAR AGE;
 RUN;
 
 *Conducting One-Way ANOVA to see effect of race on age at death;
-
 PROC GLM DATA=COMPLETE5;
 CLASS RACE;
 MODEL AGE=RACE / SS3;
